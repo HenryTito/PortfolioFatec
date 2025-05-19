@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  
+  min-height: 100vh;
+  background-color: black;
+}
+
+.content {
+  margin-top: 2.5rem; /* mt-10 */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem; /* px-12 */
+  padding-right: 2rem;
+  padding-top: 1.5rem; /* py-4 */
+  padding-bottom: 1rem;
+  max-width: 1500px; /* equivalente a container */
+}
+
+.about-section {
+  margin-top: 6rem; /* mt-24 */
+}
+
+.layout-principal{
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "projects"
+    "footer";
+  grid-template-rows: auto 1fr auto;
+  height: min 150vh;
+  background-color: black;
+
+}
